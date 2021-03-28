@@ -17,7 +17,7 @@ public class AssistInput {
 	public AssistInput(Shot newShot, int shotID) {
 
 		int count = 0;
-	    String file = "C:\\Player20.csv";
+	    String file = "C:\\CurrentPlayerList.csv";
 	    ArrayList<String[]> content = new ArrayList<>();
 	    try(BufferedReader br = new BufferedReader(new FileReader(file))) {
 	        String line = "";
